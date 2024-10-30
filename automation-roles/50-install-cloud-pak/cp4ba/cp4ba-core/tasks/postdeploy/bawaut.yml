@@ -105,6 +105,11 @@
       \ \ - Credentials as in Credentials section
 
 
+      - BAWSQL Database (for use with the SQL Integration Services from 'System Data' Toolkit):
+
+      \ \ - JNDI value to use in field DataSourceName: 'jdbc/bawsql'
+
+
       ## Credentials
 
       - {{ lc_principal_admin_user }} / {{ lc_principal_admin_password }}
